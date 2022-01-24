@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/Blog-portfolio/static/css/main.ecad3b7d.css",
+    "main.js": "/Blog-portfolio/static/js/main.4d9580b3.js",
+    "static/js/787.0aa246bd.chunk.js": "/Blog-portfolio/static/js/787.0aa246bd.chunk.js",
+    "static/media/MyDiet.png": "/Blog-portfolio/static/media/MyDiet.d7e0c664f8b6a0e7adf3.png",
+    "static/media/Synchrinet.png": "/Blog-portfolio/static/media/Synchrinet.d08b69eb2c06c32c9904.png",
+    "static/media/Blogreact.png": "/Blog-portfolio/static/media/Blogreact.965d0cf784c9cf14479f.png",
+    "static/media/Ews.png": "/Blog-portfolio/static/media/Ews.0970c341735e61e8ff63.png",
+    "static/media/header-img.jpg": "/Blog-portfolio/static/media/header-img.126e9a80f5ec98096858.jpg",
+    "static/media/projet-forum.png": "/Blog-portfolio/static/media/projet-forum.ae1dd145c16f3f82f4ab.png",
+    "static/media/Blog.jpg": "/Blog-portfolio/static/media/Blog.a2f225c62f39c8bc7a6b.jpg",
+    "static/media/groupietracker.png": "/Blog-portfolio/static/media/groupietracker.a89fa8fe5d381b853987.png",
+    "static/media/Librairie.jpg": "/Blog-portfolio/static/media/Librairie.56627db799d3536eb227.jpg",
+    "static/media/clonernews.png": "/Blog-portfolio/static/media/clonernews.b8441c70b7b54ba1c8c0.png",
+    "static/media/ModubloPerso.jpg": "/Blog-portfolio/static/media/ModubloPerso.47cda382517449e2690f.jpg",
+    "static/media/Modublo.jpg": "/Blog-portfolio/static/media/Modublo.090e44a319cbef170af1.jpg",
+    "static/media/Ecommerce.png": "/Blog-portfolio/static/media/Ecommerce.1dd5f02acaa3075e7716.png",
+    "static/media/dotnet.svg": "/Blog-portfolio/static/media/dotnet.ef41724420fccb992dbbbdd207ab21c4.svg",
+    "static/media/Apache.png": "/Blog-portfolio/static/media/Apache.5ce382f197ba39323088.png",
+    "static/media/Groupie-template.png": "/Blog-portfolio/static/media/Groupie-template.dc73f0e5ae07d4dccebb.png",
+    "static/media/sass.svg": "/Blog-portfolio/static/media/sass.02dda4cb70eb34023b9a05eecd50e50e.svg",
+    "static/media/react.svg": "/Blog-portfolio/static/media/react.fdd3331d261ad6d5e1c92448737aa2aa.svg",
+    "static/media/laravel.svg": "/Blog-portfolio/static/media/laravel.e779db84828eec1e53ca104fed31b979.svg",
+    "static/media/golang.svg": "/Blog-portfolio/static/media/golang.838d8970cf79dd5468e00cdf19f360c2.svg",
+    "static/media/csharp.svg": "/Blog-portfolio/static/media/csharp.ea991da41422a74b16497acda9d6feca.svg",
+    "static/media/html.svg": "/Blog-portfolio/static/media/html.794a64840888ff6bcae542f9a401fddf.svg",
+    "static/media/c++.svg": "/Blog-portfolio/static/media/c++.c4a42e1361f15351e4445b53cde0aa8e.svg",
+    "static/media/css.svg": "/Blog-portfolio/static/media/css.97715c1c82ff638fe06cd7d8c9b746ac.svg",
+    "static/media/python.svg": "/Blog-portfolio/static/media/python.42f87cb3c004a68af35276b967671a1c.svg",
+    "index.html": "/Blog-portfolio/index.html",
+    "static/media/js.svg": "/Blog-portfolio/static/media/js.1192a303c7e00b85f5dedb939fd9a088.svg",
+    "static/media/php.svg": "/Blog-portfolio/static/media/php.c22bc8983a322ad6551b64604137b960.svg",
+    "main.ecad3b7d.css.map": "/Blog-portfolio/static/css/main.ecad3b7d.css.map",
+    "main.4d9580b3.js.map": "/Blog-portfolio/static/js/main.4d9580b3.js.map",
+    "787.0aa246bd.chunk.js.map": "/Blog-portfolio/static/js/787.0aa246bd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ecad3b7d.css",
+    "static/js/main.4d9580b3.js"
+  ]
+}
