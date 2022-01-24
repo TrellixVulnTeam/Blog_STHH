@@ -1,0 +1,257 @@
+:root 
+{
+  --main-color:rgba(0, 0, 0, 0.747);
+  --text-color: rgb(255, 255, 255);
+}
+#best-articles 
+{
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 40px 0px;
+  overflow:hidden;
+}
+#best-articles h3 
+{
+  width: 100%;
+  margin-top: 60px;
+  text-align: center;
+  font-size: 2em;
+}
+#best-articles-link{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: auto 0;
+  top: -50px; /*mettre la moitié de la hauteur de best articles link*/
+  transform: scale(0.8);
+}
+#best-articles-link span
+{
+  position: absolute;
+  bottom: 10%;
+  left: 0;
+  right: 0;
+  margin:auto;
+  width: 40px;
+  height: 4px;
+  animation: floating 3s ease-in-out infinite;
+}
+@keyframes floating {
+  0% {
+    transform: translateY(25px);
+  } 50% {
+    transform: translateY(10px);
+  } 100% {
+    transform: translateY(25px);
+  }
+}
+.paused {
+  -webkit-animation-play-state: paused !important;
+  -moz-animation-play-state: paused !important;
+  -o-animation-play-state: paused !important; 
+  animation-play-state: paused !important;
+}
+#best-articles-link span::after,#best-articles-link span::before
+{
+  content: "";
+  position: absolute;
+  background: rgb(143, 143, 143);
+  width: 100%;
+  height: 100%;
+  border-radius:5px;
+}
+
+#best-articles-link span::after
+{
+  transform: rotate(48deg) translateX(-45%);
+}
+#best-articles-link span::before
+{
+  transform: rotate(-48deg) translateX(45%);
+}
+
+.article-preview
+{
+  position: relative;
+  width: 400px;
+  height: 250px;
+  margin: 40px 40px;
+  border: 1px solid rgba(0, 0, 0, 0.034);
+  box-shadow: 6px 6px 20px 6px rgba(0, 0, 0, 0.034);
+  border-radius: 10px;
+  overflow:hidden;
+}
+.content-preview 
+{
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.596);
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  text-align: center;
+  word-wrap: break-word;
+  transition: all 0.3s ease-in-out;
+  color: var(--text-color);
+  cursor: pointer;
+}
+.content-preview h4 
+{
+  font-size: 2em;
+  font-weight: 600;
+}
+.content-preview:hover 
+{
+  opacity: 1;
+}
+
+.image-preview 
+{
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.image-preview-img 
+{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: all 0.3s ease-in-out;
+}
+
+
+@media screen and (max-width:950px) {
+    .content-preview 
+    {
+        opacity: 0.8;
+    }
+    .content-preview:hover
+    {
+        opacity: 0;
+    }
+}
+/* == Presentation front page == */
+#presentation 
+{
+    position: relative;
+    margin-top: 10vh;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.034)
+}
+
+.card 
+{
+  margin: 40px;
+  max-width: 20%;
+  min-width: 380px;
+}
+.card img 
+{
+  max-width: 100%;
+  object-fit: cover;
+}
+/* ============================= */
+
+
+
+
+
+// POST 
+
+
+.post 
+{
+  font-size: 1.4em;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post-content 
+{
+  display: flex;
+  flex-wrap: wrap;
+  div 
+  {
+    margin-bottom: 40px;
+    min-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    h4 
+    {
+      font-weight: 600;
+      font-size: 1.48em;
+    }
+    img 
+    {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  }
+}
+.date 
+{
+  width: 100%;
+  text-align: right;
+  color: rgb(146, 146, 146);
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width:1400px) {
+  .post{
+    width: 800px;  
+    transform: scale(0.8);
+  }
+}
+
+
+@media screen and (max-width:1000px) {
+  .post{
+    font-size: 1.2em;
+  }
+}
+
+// @media screen and (max-width:900px) {
+//   .post{
+//     width: 500px;
+//   }
+// }
+// @media screen and (max-width:800px) {
+//   .post{
+//     width: 500px;
+//   }
+// }
+// @media screen and (max-width:700px) {
+//   .post{
+//     width: 00px;
+//   }
+// }
+
+// @media screen and (max-width:600px) {
+//   .post{
+//     width: 400px;
+//   }
+// }
+// @media screen and (max-width:500px) {
+//   .post{
+//     width: 300px;
+//   }
+// }
+
+// @media screen and (max-width:400px) {
+//   .post{
+//     width: 200px;
+//   }
+// }

@@ -1,0 +1,22 @@
+#MesLanguages
+{
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    h2 
+    {
+        margin:60px;
+    }
+
+}
+#SvgLogo
+{
+    img 
+    {
+        min-width: 60px;
+        max-width: 100px;
+        margin: 40px;
+    }
+}
